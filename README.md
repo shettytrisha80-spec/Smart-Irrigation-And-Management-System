@@ -20,4 +20,34 @@ The system uses sensors to monitor soil moisture levels and helps control the wa
 - **Microcontroller (Arduino/ESP8266/ESP32)** – Processes sensor data and controls irrigation.
 - **Water Pump** – Supplies water when required.
 - **Relay Module** – Controls the water pump.
-- **Wi
+- **Wi-Fi Connectivity** – Enables communication and remote monitoring (if implemented).
+
+## Working Principle
+1. The soil moisture sensor measures the moisture level in the soil.
+2. The sensor sends data to the microcontroller.
+3. The microcontroller checks the moisture level against a predefined threshold.
+4. If the soil is dry, the system activates the water pump.
+5. When sufficient moisture is detected, the pump is switched off.
+
+## Applications
+- Agricultural fields
+- Smart gardens
+- Greenhouses
+- Plant nurseries
+- Home gardening
+
+## Advantages
+- Saves water through controlled irrigation.
+- Reduces manual work.
+- Supports efficient crop management.
+- Provides smart monitoring of soil conditions.
+- Promotes sustainable agricultural practices.
+
+## Project Objective
+The main objective is to develop an IoT-based irrigation solution that monitors soil moisture and automates water supply, helping improve water conservation and agricultural efficiency.
+
+## Author
+**Trisha Shetty**
+
+## License
+This project is developed for educational purposes.
